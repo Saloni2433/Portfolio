@@ -1,0 +1,51 @@
+:root{
+    --font1:(font-family: "Playfair Display", serif);
+}
+/* Header */
+header{
+  position:relative;
+}
+.header{
+  position:fixed;
+  width:100%;
+  z-index:1;
+}
+/* main banner */
+.vh-100 {
+    height: 100vh;
+}
+/* Main banner */
+.Main-banner {
+  background-image:url('../images/main-banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#changingText {
+    border-right: 1px solid black;
+    animation: cursoranim 1s linear infinite;
+  }
+  
+  @keyframes cursoranim {
+    50% {
+      border-right: 1px solid rgba(0, 0, 0, 0);
+    }
+  }
+  /*About*/
+  .a-dsc{
+    color: #999999;
+  }
+  .a-dsc h2{
+    font-family: 'Courier New', Courier, monospace;
+  }
+/* Button */
+.s-m{
+  width:100%;
+}
+/* Freelance */
+.freelance{
+  background-image:url('../images/freelance.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
